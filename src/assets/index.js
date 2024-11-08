@@ -4,6 +4,7 @@ import seoIcon from './icons/icon__seo.svg';
 import speakerIcon from './icons/icon__speaker.svg';
 import pcIcon from './icons/icon__computer.svg';
 import headerIllustration from './images/header__illustration.png';
+import agencyImg from './images/image__teamwork.png';
 
 import clutch from '../assets/images/homeC__clutch.png';
 import forbs from '../assets/images/homeC__forbs.png';
@@ -45,4 +46,10 @@ export const certificateIcons = {
     corporationFive,
     corporationSix,
   ],
+};
+
+export const agencyBlock = {
+  header: 'Createx Agency ',
+  desc: 'Lacus ac mollis vitae viverra. Tincidunt est, feugiat montes, viverra ullamcorper mi dui, nulla pharetra. Sapien urna nullam elit diam mauris orci. Volutpat quam tempus justo, aliquam. Tortor ultrices mattis eget orci eu nisi sed augue odio. Et senectus risus, pharetra, tristique libero. Dolor risus ac quam dictum mattis ultrices laoreet sapien. Feugiat lacus, suscipit eu sociis et quis hendrerit. Cras at ac magna ultricies orci.',
+  img: agencyImg,
 };
