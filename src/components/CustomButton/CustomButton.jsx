@@ -1,8 +1,11 @@
 import './CustomButton.scss';
 
-export const CustomButton = ({ text, changable, styles }) => {
+export const CustomButton = ({ text, changable, styles, onClick }) => {
   return (
-    <button style={changable ? { ...styles } : {}} className="customButton">
+    <button
+      onClick={onClick ? onClick : null}
+      style={changable ? { ...styles } : {}}
+      className="customButton">
       {text}
     </button>
   );

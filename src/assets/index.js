@@ -10,6 +10,7 @@ import likeSingle from './icons/icon__like.svg';
 import youtube from './icons/icon__youtube.svg';
 
 import headerIllustration from './images/header__illustration.png';
+import analysisIllustration from './images/analysis__illustration.png';
 import agencyImg from './images/image__teamwork.png';
 import servicesSectionImg from './images/services__graffic.png';
 
@@ -100,4 +101,11 @@ export const servicesSection = {
     likeSingle: likeSingle,
     youtubeIcon: youtube,
   },
+};
+
+export const analysisBlock = {
+  img: analysisIllustration,
+  title: 'Get a Free SEO Analysis!',
+  agreement: 'I agree to receive communications from Createx SEO Agency',
+  buttonText: 'Get a free analysis',
 };

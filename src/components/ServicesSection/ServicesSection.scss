@@ -31,6 +31,19 @@
 
   &__workflowButtons {
     margin-top: 40px;
+    button {
+      &:first-child {
+        transition: 0.1s ease-in;
+        &:hover {
+          //   border: 2px solid var(--color-purple) !important;
+          //   bg: var(--color-purple) !important;
+          transition: 0.1s ease-in;
+
+          background: var(--color-purple) !important;
+          color: #fff !important;
+        }
+      }
+    }
   }
 
   &__desc {
