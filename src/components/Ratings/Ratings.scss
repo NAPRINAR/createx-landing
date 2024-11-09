@@ -1,0 +1,25 @@
+.ratings {
+  padding-top: 180px;
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__ratesWrapper {
+    display: flex;
+  }
+
+  &__rate {
+    margin-right: 48px;
+    p {
+      line-height: 21px;
+      font-size: 14px;
+      font-family: var(--font-lato);
+      text-align: center;
+      font-weight: 400;
+      color: var(--color-gray);
+      margin-top: 20px;
+    }
+  }
+}

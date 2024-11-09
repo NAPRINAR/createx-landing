@@ -1,0 +1,119 @@
+.services {
+  padding-top: 180px;
+  &__title {
+    font-family: var(--font-lato);
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 59px;
+    text-align: center;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__nav {
+    margin-top: 40px;
+    button {
+      transition: 0.1s ease-in-out;
+      margin-right: 1px;
+      &:first-child {
+        border: 2px solid var(--color-purple);
+        color: var(--color-purple) !important;
+      }
+      &:hover {
+        border: 2px solid var(--color-purple);
+        color: var(--color-purple) !important;
+        transition: 0.1s ease-in;
+      }
+    }
+  }
+
+  &__workflowButtons {
+    margin-top: 40px;
+  }
+
+  &__desc {
+    margin-top: 60px;
+    // width: 60%;
+  }
+
+  &__descSubTitle {
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 700;
+    font-family: var(--font-lato);
+  }
+
+  &__list {
+    list-style-type: none;
+    margin-top: 24px;
+    li {
+      margin-bottom: 12px;
+
+      display: flex;
+      align-items: center;
+      p {
+        margin-left: 12px;
+        font-family: var(--font-lato);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+      }
+    }
+  }
+
+  &__imgSection {
+    width: 60%;
+    display: flex;
+    position: relative;
+    // justify-content: flex-end;
+    align-items: end;
+  }
+
+  &__mainImgWrapper {
+    width: 85%;
+    // height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &__followsIcon {
+    position: absolute;
+    top: 31px;
+    right: 190px;
+  }
+  &__likesIcon {
+    position: absolute;
+    bottom: 173px;
+    left: 103px;
+  }
+  &__likeSingleIcon {
+    position: absolute;
+    bottom: -50px;
+    right: 50%;
+  }
+  &__subscribe {
+    position: absolute;
+    right: 50px;
+    bottom: -15px;
+    display: flex;
+    align-items: center;
+    background: var(--color-red);
+    border: none;
+    outline: none;
+    padding: 7px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    p {
+      font-family: var(--font-lato);
+      text-transform: uppercase;
+      font-size: 18px;
+      margin-left: 5px;
+      color: #fff;
+    }
+  }
+}
