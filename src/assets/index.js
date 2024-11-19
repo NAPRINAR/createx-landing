@@ -11,10 +11,16 @@ import likeSingle from './icons/icon__like.svg';
 import youtube from './icons/icon__youtube.svg';
 import plus from './icons/icon__plus.svg';
 import minus from './icons/icon__minus.svg';
+import targetIcon from './icons/icon__target.svg';
+import checkListIcon from './icons/icon__checklist.svg';
+import chatIcon from './icons/icon__chat.svg';
+import viewIcon from './icons/icon__view.svg';
+import likeShineIcon from './icons/icon__likeShine.svg';
 
 import headerIllustration from './images/header__illustration.png';
 import analysisIllustration from './images/analysis__illustration.png';
 import questionIllustration from './images/question__illustration.png';
+import benefitIllustration from './images/benefit__illustration.png';
 import agencyImg from './images/image__teamwork.png';
 import servicesSectionImg from './images/services__graffic.png';
 
@@ -231,6 +237,45 @@ export const clientsBlock = {
         { img: circleGreenNF, percent: '200%', desc: 'ROI' },
         { investors: '12000$', desc: 'Increase per month' },
       ],
+    },
+  ],
+};
+
+export const benefitBlock = {
+  benefitTitle: 'Our Benefits',
+  benefitIllustration: benefitIllustration,
+  benefitItemsPartOne: [
+    {
+      icon: speakerIcon,
+      title: 'Social Advertising Experts',
+      desc: 'Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.',
+    },
+    {
+      icon: targetIcon,
+      title: 'Social Advertising Experts',
+      desc: 'Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.',
+    },
+    {
+      icon: checkListIcon,
+      title: 'Social Advertising Experts',
+      desc: 'Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.',
+    },
+  ],
+  benefitItemsPartTwo: [
+    {
+      icon: chatIcon,
+      title: 'Social Advertising Experts',
+      desc: 'Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.',
+    },
+    {
+      icon: viewIcon,
+      title: 'Social Advertising Experts',
+      desc: 'Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.',
+    },
+    {
+      icon: likeShineIcon,
+      title: 'Social Advertising Experts',
+      desc: 'Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.',
     },
   ],
 };

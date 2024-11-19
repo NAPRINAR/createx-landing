@@ -1,0 +1,49 @@
+.benefits {
+  margin-top: 150px;
+  &__wrapper {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-family: var(--font-lato);
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 59.8px;
+    text-align: center;
+  }
+
+  &__firstPart {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    // justify-content: cen;
+  }
+
+  &__benefitItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  &__itemTitle {
+    margin-top: 18px;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: var(--font-lato);
+    font-weight: 700;
+  }
+
+  &__itemDesc {
+    width: 60%;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 64px;
+    line-height: 21px;
+    font-family: var(--font-lato);
+    font-size: 14px;
+    color: var(--color-lightgray);
+  }
+}

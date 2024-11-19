@@ -1,5 +1,6 @@
 import { Agency } from '../../components/Agency/Agency';
 import { Analysis } from '../../components/Analysis/Analysis';
+import { Benefits } from '../../components/Benefits/Benefits';
 import { CaseStudies } from '../../components/CaseStudies/CaseStudies';
 import { Certificate } from '../../components/Certificate/Certificate';
 import { Header } from '../../components/Header/Header';
@@ -18,6 +19,7 @@ export const HomePage = () => {
       <Analysis />
       <Question />
       <CaseStudies />
+      <Benefits />
     </div>
   );
 };
