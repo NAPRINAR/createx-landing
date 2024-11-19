@@ -1,0 +1,116 @@
+.caseStudies {
+  margin-top: 200px;
+  position: relative;
+  &__title {
+    font-weight: 900;
+    font-family: var(--font-lato);
+    font-size: 46px;
+    line-height: 60px;
+  }
+
+  &__carouselItem {
+    background: var(--color-gray);
+    z-index: 2;
+    margin: 20px auto;
+    // text-align: center;
+
+    // opacity: 90%;
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #fff;
+    // border: 2px solid red;
+    border-radius: 4px;
+    margin-right: 20px;
+  }
+
+  &__carouselLogoWrapper {
+    // position: relative;
+    width: 250px;
+    // height: 200px;
+    display: flex;
+    // align-items: center;
+    justify-content: flex-start;
+  }
+
+  &__carouselLogo {
+    width: 70%;
+    position: relative;
+    left: -10px;
+
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    // width: 300px;
+    // height: 100px;
+    // height: 78px;
+    // height: 76px;
+  }
+
+  &__rateItem {
+    display: flex;
+  }
+
+  &__carouselRates {
+    display: flex;
+  }
+
+  &__carouselTitle {
+    font-family: var(--font-lato);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 8px;
+    margin-left: 20px;
+  }
+  &__carouselDesc {
+    margin-top: 40px;
+    margin-left: 15px;
+    font-family: var(--font-lato);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    color: var(--color-lightgray);
+
+    :last-child {
+      color: var(--color-gray) !important;
+    }
+  }
+
+  &__rateItem {
+    margin-right: 32px;
+    margin-left: 15px;
+    // margin-top: 75px;
+    p {
+      margin-left: 12px;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 20px;
+      font-family: var(--font-lato);
+
+      span {
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  &__buttonSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 65px;
+  }
+
+  &__footerTitle {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    font-family: var(--font-lato);
+    margin-right: 40px;
+  }
+}
